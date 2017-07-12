@@ -118,6 +118,7 @@ I then assessed the impact of increasing convolutional layer depths. I tested tw
 | 100 - 200         | 0.5 |0.985						| 
 
 + Conv layer depths 30-60:
+
 ![](/Figures/LeNetAcc_Conv30_60.png)
 + Conv layer depths 100-200:
 ![](/Figures/LeNetAcc_Conv100_200.png)
@@ -215,6 +216,7 @@ X_train = preprocess(X_train, hist_eq=1, grayscale=1, norm=1, plot=0)
 
 Training/validation accuracy are plotted below.
 I got a final validation accuracy of 99.1% which is the same as for grayscale images as input. We thus reach the same conclusion as in Pierre Sermanet and Yann LeCun's paper, __that is color does not bring improvement__.
+
 ![](/Figures/LeNet_Conv16_32D_64D_Drop3_Color.png)
 
 #### Final architecture
