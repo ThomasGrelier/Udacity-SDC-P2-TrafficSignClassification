@@ -254,7 +254,7 @@ __Parameters for model training:__
 
 ### Results
 
-My final model reacjes the following accuracy for the different sets:
+My final model reaches the following accuracy for the different sets:
 
 * training set accuracy of __100%__
 * validation set accuracy of __99.1%__
