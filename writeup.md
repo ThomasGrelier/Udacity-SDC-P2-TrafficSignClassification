@@ -131,6 +131,7 @@ I tested the multiscale architecture as detailed in the aforementioned paper fro
 >The motivation for combining representation from multiple stages in the classifier is to provide different scales of receptive fields to the classifier. In the case of 2 stages of features, the second stage extracts “global” and invariant shapes and structures, while the first stage extracts “local” motifs with more precise details. 
 
 Results are given in the table below. Training / validation accuracy curves are plotted on the following figures.
+
 | Conv layer depth         | Nb of Dropout |	keep prob	|     Validation accuracy after 100 epochs  | 
 |:---------------------:|:------:|:------:|:--------------------------------------:| 
 | 6 - 16 + multiscaling|3 |0.5 |  0.958 | 
