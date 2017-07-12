@@ -187,6 +187,7 @@ Results are given in the table below. Training / validation accuracy curves are 
 | #3 | 0.991 | 
 
 + 50 (max_pool) - 100 - 200 :
+
 ![](/Figures/LeNet_Conv50D_100_200_Drop3_lr_001.png)
 + 16 - 32(max_pool) - 64(max_pool) :
 ![](/Figures/LeNet_Conv16_32D_64D_Drop3_lr_001.png)
