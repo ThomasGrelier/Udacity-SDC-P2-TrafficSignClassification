@@ -24,7 +24,7 @@ Repository contains three files:
 * An HTML export of the notebook (report.html)
 * a writeup report (markdown)
 
-and a directory with figures.
+It also contains a directory with the figures plotted in the writeup report.
 
 Dependencies
 ---
